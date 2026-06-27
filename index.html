@@ -182,11 +182,14 @@
   .hero-subtitle p + p { margin-top: 14px; }
   .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
   .hero-meta {
-    margin-top: 44px;
-    display: flex; gap: 42px;
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-light);
+    display: flex; gap: 28px;
+    justify-content: center;
     flex-wrap: wrap;
   }
-  .hero-stat { text-align: left; }
+  .hero-stat { text-align: center; }
   .hero-stat-value {
     font-size: 28px; font-weight: 600; letter-spacing: -0.02em;
     color: var(--ink);
@@ -196,6 +199,7 @@
     font-size: 13px; color: var(--ink-tertiary);
     margin-top: 4px; font-weight: 400;
   }
+  .hero-profile .hero-stat-value { font-size: 24px; }
   .hero-profile {
     background: rgba(255,255,255,0.86);
     border: 1px solid var(--border);
@@ -689,7 +693,7 @@
         <p>我的研究方向是 AI 从语言模型走向自主系统的演化路径，重点在于构建具备信息组织、工具调用、实验设计与闭环迭代能力的智能体系统。</p>
         <p>在 Agent 方向上，我主要研究 Agentic Science、autonomous research agent 与 multi-agent workflow，重点放在 LLM 如何参与科研闭环，包括文献建模、假设生成、实验设计、代码实现、结果分析以及可复现性审计，使研究过程能够被系统化执行、验证并持续迭代。</p>
         <p>在具身智能方向上，我主要研究 Embodied Foundation Model、Vision-Language-Action Model、World Model 以及 Sim-to-Real transfer，重点在于将语言、视觉与空间表征统一到决策框架中，使系统能够理解三维环境结构、判断物体可操作性，并完成长程任务规划，同时提升不同机器人本体之间的策略迁移能力以及从仿真到现实部署的稳定性。</p>
-        <p>最终目标是构建 reliable intelligence infrastructure，使 AI 能够长期服务于科研、工程与教育场景。Agent 侧提供复杂任务的组织与执行能力，具身智能侧提供现实世界的感知与交互接口，两者结合形成可扩展、可验证、可持续迭代的智能系统基础设施。</p>
+        <p>我的梦想是有一天能够构建 reliable intelligence infrastructure，使 AI 能够长期服务于科研、工程与教育场景。Agent 侧提供复杂任务的组织与执行能力，具身智能侧提供现实世界的感知与交互接口，两者结合形成可扩展、可验证、可持续迭代的智能系统基础设施。</p>
       </div>
       <div class="hero-actions">
         <a href="#projects" class="btn-accent">
@@ -697,16 +701,6 @@
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <a href="#contact" class="btn-outline">取得联系</a>
-      </div>
-      <div class="hero-meta">
-        <div class="hero-stat">
-          <div class="hero-stat-value">Agent</div>
-          <div class="hero-stat-label">科研智能体方向</div>
-        </div>
-        <div class="hero-stat">
-          <div class="hero-stat-value">具身智能</div>
-          <div class="hero-stat-label">机器人与物理交互</div>
-        </div>
       </div>
     </div>
 
@@ -724,6 +718,16 @@
         <svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M0 4a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2H2a2 2 0 01-2-2V4zm2 0l6 4 6-4H2z" fill="currentColor"/></svg>
         3584046379@qq.com
       </a>
+      <div class="hero-meta">
+        <div class="hero-stat">
+          <div class="hero-stat-value">Agent</div>
+          <div class="hero-stat-label">科研智能体方向</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">具身智能</div>
+          <div class="hero-stat-label">机器人与物理交互</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
