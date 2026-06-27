@@ -171,13 +171,15 @@
     max-width: 720px;
   }
   .hero-subtitle {
-    font-size: 18px;
-    line-height: 1.7;
+    font-size: 17px;
+    line-height: 1.75;
     color: var(--ink-secondary);
-    max-width: 620px;
+    max-width: 700px;
     margin-bottom: 34px;
     font-weight: 400;
   }
+  .hero-subtitle p { margin: 0; }
+  .hero-subtitle p + p { margin-top: 14px; }
   .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
   .hero-meta {
     margin-top: 44px;
@@ -683,9 +685,13 @@
         常州工学院 · 人工智能 · 大一在读
       </div>
       <h1>I Loved And Did A Little Work</h1>
-      <p class="hero-subtitle">
-        研究方向为 Agent 与具身智能。相信 AI 不应只是聊天框，而应成为科研、工程和教育中真正可依赖的生产力工具。
-      </p>
+      <div class="hero-subtitle">
+        <p>我的研究方向是 Agent 与具身智能。</p>
+        <p>我关心的是 AI 如何从语言模型走向自主系统，希望 AI 能组织知识、调用工具、设计实验、执行流程，并在反馈中修正自己的判断。</p>
+        <p>在 Agent 方向，我主要关注 Agentic Science、autonomous research agent 和 multi-agent workflow。目前在具体研究 LLM 如何参与科研过程中的文献建模、假设生成、实验设计、代码实现、结果分析和可复现性审计，形成可执行、可验证、可迭代的研究闭环。</p>
+        <p>在具身智能方向，我关注 Embodied Foundation Model、Vision-Language-Action Model、World Model 和 Sim-to-Real Transfer。目前在具体研究如何把语言、视觉、空间表征和动作策略接到现实环境里，从而感知一个三维世界、判断物体的可操作性与规划长程动作，并且能够在不同机器人本体之间迁移策略，从仿真走向真实部署。</p>
+        <p>我最终想做的是 reliable intelligence infrastructure：一种能长期服务于科研、工程和教育的智能基础设施。Agent 让 AI 获得组织复杂任务的能力，具身智能让 AI 获得进入现实世界的接口。</p>
+      </div>
       <div class="hero-actions">
         <a href="#projects" class="btn-accent">
           查看项目
@@ -711,7 +717,7 @@
       <p class="profile-school">常州工学院 · 人工智能 · 大一</p>
       <p class="profile-line">喜欢发呆，擅长睡觉，洗澡唱歌，如厕读书。</p>
       <div class="profile-tags">
-        <span><i></i>开放实习机会</span>
+        <span><i></i>寻找实习机会</span>
         <span><i></i>科研远程 RA</span>
         <span><i></i>开源交流</span>
       </div>
